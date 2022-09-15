@@ -1,0 +1,16 @@
+.prosjekter {
+  background-color: transparent;
+  border-color: transparent;
+  transition: opacity 0.5s ease;
+  transition: background-color 0.5s ease;
+  border-color: blue;
+}
+
+button:hover {
+  background-color: green;
+  border-color: transparent;
+}
+
+.prosjekter:active {
+  opacity: 0.75;
+}
