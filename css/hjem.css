@@ -14,3 +14,39 @@ button:hover {
 .hjem:active {
   opacity: 0.75;
 }
+
+.login-box {
+  display: flex;
+  margin-left: 600px;
+  background-color: rgba(173, 205, 211, 0.664);
+  margin-top: 50px;
+  width: 500px;
+}
+
+.login {
+  display: block;
+  text-align: center;
+  margin-top: 15px;
+  margin-left: 175px;
+}
+
+.mainpage {
+  display: flex;
+}
+
+.box {
+  overflow: hidden;
+  justify-content: center;
+  background-color: lightgreen;
+  width: 750px;
+  height: 500px;
+  
+}
+
+.velkommen {
+  margin-top: 15px;
+  text-align: center;
+  display: block;
+  height: 20px;
+  font-weight: bold;
+}
