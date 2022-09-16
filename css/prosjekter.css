@@ -14,3 +14,62 @@ button:hover {
 .prosjekter:active {
   opacity: 0.75;
 }
+
+.overskrifter {
+  margin-top: 50px;
+  display: flex;
+}
+
+.o1 {
+  margin-left: 50px;
+}
+
+.o1,
+.o2,
+.o3 {
+  margin-right: 50px;
+}
+
+.kp1,
+.ph1,
+.t1 {
+  border: 1px;
+  border-color: lightgray;
+}
+
+.rad1 {
+  display: flex;
+}
+
+.kp1 {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border: 5px solid silver;
+  text-align: left;
+  margin-top: 15px;
+  width: 285px;
+  margin-left: 125px;
+}
+
+.ph1 {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border: 5px solid silver;
+  text-align: left;
+  margin-top: 15px;
+  width: 285px;
+  margin-left: 175px;
+}
+
+.t1 {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border: 5px solid silver;
+  text-align: left;
+  margin-top: 15px;
+  width: 285px;
+  margin-left: 95px;
+}
