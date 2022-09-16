@@ -39,7 +39,7 @@ button a {
 }
 
 .hjem {
-    margin-left: 500px;
+    margin-left: 479px;
 }
 
 button {
@@ -178,4 +178,10 @@ button:active {
 
 .fet {
     font-weight: bold;
+}
+
+span a,
+button a {
+    text-decoration: none;
+    color: black;
 }

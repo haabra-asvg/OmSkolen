@@ -14,3 +14,12 @@ button:hover {
 .im:active {
   opacity: 0.75;
 }
+
+.background-image {
+  height: 79.1%;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(../bilder/bakgrunn-im.jfif);
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+}
