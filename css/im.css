@@ -23,3 +23,37 @@ button:hover {
   background-size: cover;
   position: absolute;
 }
+
+.im-boks {
+  display: flex;
+}
+
+.i-boks-tekst-overskrift,
+.m-boks-tekst-overskrift {
+  color: black;
+  font-weight: bold;
+  margin-top: 15px;
+  text-align: center;
+  display: block;
+}
+
+.i-boks {
+  margin-left: 125px;
+  margin-top: 100px;
+  background-color: white;
+  width: 600px;
+}
+
+.m-boks {
+  margin-left: 150px;
+  margin-top: 100px;
+  background-color: white;
+  width: 600px;
+}
+
+.i-boks-tekst-tekst,
+.m-boks-tekst-tekst {
+  line-height: 25px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
