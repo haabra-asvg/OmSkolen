@@ -27,8 +27,11 @@ button:hover {
 }
 
 .om-asvg {
-  width: 775px;
-  background: lightgreen;
+  margin-top: 100px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 755px;
+  background-color: lightgreen;
 }
 
 /* AS */
@@ -63,4 +66,38 @@ button:hover {
 
 .mer-om-asvg {
   margin-top: 15px;
+}
+
+.testthing {
+  position: fixed;
+  top: 90%;
+  left: 90%;
+  width: 110px;
+  background: linear-gradient(to right, #fcdf03, #fcba03);
+  text-align: center;
+  height: 50px;
+  border: 0px;
+  transition: opacity 0.3s ease;
+}
+
+.testthing:hover {
+  background: linear-gradient(tor right, #fcdf03, #fcba03);
+  opacity: 0.7;
+}
+
+.dayum {
+  position: fixed;
+  top: 90%;
+  left: 3%;
+  width: 110px;
+  background: linear-gradient(to right, #fcdf03, #fcba03);
+  text-align: center;
+  height: 50px;
+  border: 0px;
+  transition: opacity 0.3s ease;
+}
+
+.dayum:hover {
+  background: linear-gradient(to right, #fcdf03, #fcba03);
+  opacity: 0.7;
 }
