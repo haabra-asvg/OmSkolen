@@ -7,8 +7,16 @@
 }
 
 button:hover {
-  background-color: green;
+  background-color: black;
   border-color: transparent;
+}
+
+button a {
+  transition: color 0.5s ease;
+}
+
+button a:hover {
+  color: blue;
 }
 
 .im:active {
