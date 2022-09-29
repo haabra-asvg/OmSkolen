@@ -15,7 +15,7 @@ button:hover {
   opacity: 0.75;
 }
 
-.overskrifter {
+.overskrifter-kpt {
   margin-top: 50px;
   display: flex;
 }
@@ -23,21 +23,42 @@ button:hover {
 .o1 {
   margin-left: 50px;
 }
+.o4 {
+  margin-left: 150px;
+  margin-right: 185px;
+  width: 234.4px;
+}
+
+.o5 {
+  margin-right: 160px;
+}
+
+.o7 {
+  margin-left: 190px;
+  margin-right: 320px;
+}
+
+.o9 {
+  margin-left: 265px;
+}
 
 .o1,
 .o2,
-.o3 {
+.o3,
+.o6,
+.o9 {
   margin-right: 50px;
 }
 
 .kp1,
 .ph1,
-.t1 {
+.t1,
+.kr1 {
   border: 1px;
   border-color: lightgray;
 }
 
-.rad1 {
+.rad1-kpt {
   display: flex;
 }
 
@@ -64,6 +85,91 @@ button:hover {
 }
 
 .t1 {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border: 5px solid silver;
+  text-align: left;
+  margin-top: 15px;
+  width: 285px;
+  margin-left: 95px;
+}
+
+
+.overskrifter-kye {
+  margin-top: 50px;
+  display: flex;
+}
+
+.rad1-kye {
+  display: flex;
+}
+
+.kr1 {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border: 5px solid silver;
+  text-align: left;
+  margin-top: 15px;
+  width: 285px;
+  margin-left: 125px;
+}
+
+.yff1 {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border: 5px solid silver;
+  text-align: left;
+  margin-top: 15px;
+  width: 285px;
+  margin-left: 175px;
+}
+
+.en1 {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border: 5px solid silver;
+  text-align: left;
+  margin-top: 15px;
+  width: 285px;
+  margin-left: 95px;
+}
+
+.overskrifter-namana {
+  margin-top: 50px;
+  display: flex;
+}
+
+.rad1-namana {
+  display: flex;
+}
+
+.na1 {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border: 5px solid silver;
+  text-align: left;
+  margin-top: 15px;
+  width: 285px;
+  margin-left: 125px;
+}
+
+.ma1 {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border: 5px solid silver;
+  text-align: left;
+  margin-top: 15px;
+  width: 285px;
+  margin-left: 175px;
+}
+
+.nan1 {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;

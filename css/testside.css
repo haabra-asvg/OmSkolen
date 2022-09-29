@@ -1,0 +1,66 @@
+.asvg {
+  background-color: transparent;
+  border-color: transparent;
+  transition: opacity 0.5s ease;
+  transition: background-color 0.5s ease;
+  border-color: blue;
+}
+
+button:hover {
+  background-color: green;
+  border-color: transparent;
+}
+
+.asvg:active {
+  opacity: 0.75;
+}
+
+/* ASVG */
+
+.asvg-boks {
+  display: flex;
+  height: 300px;
+}
+
+.vgs {
+  width: 750px;
+}
+
+.om-asvg {
+  width: 775px;
+  background: lightgreen;
+}
+
+/* AS */
+
+.as-boks {
+  display: flex;
+  height: 300px;
+}
+
+.om-as {
+  width: 750px;
+  background: lightgreen;
+}
+
+.skram {
+  width: 775px;
+}
+
+/* LINJENE */
+
+.mer-om-asvg-boks {
+  display: block;
+  background: lightblue;
+}
+
+.mer-om-asvg-overskrift {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
+
+.mer-om-asvg {
+  margin-top: 15px;
+}
