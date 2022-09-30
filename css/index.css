@@ -75,3 +75,26 @@ button a {
     text-decoration: none;
     color: black;
 }
+
+@media only screen and (max-width: 767px) {
+    .hjem {
+        margin-left: 1px;
+    }
+    button a {
+        padding: 7px 8px;
+    }
+
+    .asvg-logo {
+        display: block;
+        padding-right: 111px;
+    }
+
+    .asvg {
+        margin-right: 1px;
+    }
+
+    .logo {
+        float: left;
+        margin-left: 80px;
+    }
+}

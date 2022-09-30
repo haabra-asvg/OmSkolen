@@ -97,6 +97,40 @@ button:hover {
   }
 
   .asvg-overskrift {
+    margin-left: 10%;
+    width: 150px;
+    margin-bottom: 2%;
+  }
+
+  .as-overskrift {
+    margin-left: 17.5%;
+  }
+
+  .om-asvg {
+    width: 50%;
+    margin-left: 0%;
+  }
+
+  .om-as {
+    width: 50%;
     margin-left: 5%;
+  }
+
+  .mer-om-asvg-overskrift {
+    margin-left: 20%;
+  }
+
+  .bakgrunnsfarge {
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4));
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+  }
+
+  .mer-om-asvg {
+    line-height: 140%;
   }
 }
