@@ -7,65 +7,130 @@
 }
 
 button:hover {
-  background-color: green;
+  background-color: black;
   border-color: transparent;
+}
+
+button a {
+  transition: color 0.5s ease;
+}
+
+button a:hover {
+  color: blue;
 }
 
 .asvg:active {
   opacity: 0.75;
 }
 
-/* ASVG */
+.vgs {
+  height: 125px;
+  margin-left: 100px;
+  margin-right: 300px;
+}
+
+.container {
+  display: flex;
+}
+
+.container div {
+  align-items: center;
+  width: 100%;
+}
+
+.om-as,
+.om-asvg,
+.mer-om-asvg {
+  line-height: 22px;
+}
 
 .asvg-boks {
-  display: flex;
-  height: 300px;
+  margin-left: 15px;
+  margin-right: 50px;
 }
 
-.vgs {
-  width: 750px;
+.as-boks {
+  margin-right: 15px;
 }
 
-.om-asvg {
-  margin-top: 100px;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 755px;
+.asvg-boks,
+.as-boks {
+  margin-top: 40px;
   background-color: lightgreen;
 }
 
-/* AS */
-
-.as-boks {
-  display: flex;
-  height: 300px;
+.asvg-navn,
+.as-navn,
+.mer-om-asvg-overskrift {
+  font-weight: bold;
+  color: black;
+  margin: 10px 0px;
+  text-align: center;
 }
 
-.om-as {
-  width: 750px;
-  background: lightgreen;
+.image-container {
+  display: flex;
+}
+
+.image-container img {
+  align-items: center;
+  height: 250px;
 }
 
 .skram {
-  width: 775px;
+  margin-left: 225px;
 }
 
-/* LINJENE */
-
-.mer-om-asvg-boks {
-  display: block;
-  background: lightblue;
+.vgs {
+  margin-left: 250px;
 }
 
-.mer-om-asvg-overskrift {
-  text-align: center;
-  font-weight: bold;
-  margin-top: 50px;
-  margin-bottom: 15px;
+@media only screen and (min-device-width: 1000px) and (max-device-width : 1800px) {
+  .skram {
+      margin-left: 100px;
+  }
+
+  .vgs {
+      margin-left: 125px;
+  }
+}
+
+@media (max-width: 767px) {
+  .skram {
+      display: none;
+  }
+
+  .vgs {
+      display: none;
+  }
+
+  ul {
+      width: 100%;
+      margin-top: 5px;
+  }
+
+  li a {
+      padding: 7px 5px;
+  }
+
+  .container2 {
+      margin-right: 0px;
+      margin-left: 50px;
+  }
+}
+
+.container2 {
+  margin: 0px 450px;
 }
 
 .mer-om-asvg {
+  margin: 15px 0px;
+  margin-left: 15px;
+}
+
+.mer-om-asvg-boks {
   margin-top: 15px;
+  background-color: lightgreen;
 }
 
 .testthing {

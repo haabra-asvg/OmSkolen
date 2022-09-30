@@ -7,128 +7,96 @@
 }
 
 button:hover {
-  background-color: black;
+  background-color: green;
   border-color: transparent;
-}
-
-button a {
-  transition: color 0.5s ease;
-}
-
-button a:hover {
-  color: blue;
 }
 
 .asvg:active {
   opacity: 0.75;
 }
 
-.vgs {
-  height: 125px;
-  margin-left: 100px;
-  margin-right: 300px;
+.bakgrunnsfarge {
+  background-color: black;
+  height: 78.3%;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4));
+  background-position: center;
+  background-size: cover;
+  position: absolute;
 }
 
 .container {
+  background-color: black;
+}
+
+/* ASVG */
+
+.overskrifter {
   display: flex;
+  margin-top: 30px;
 }
 
-.container div {
-  align-items: center;
-  width: 100%;
-}
-
-.om-as,
-.om-asvg,
-.mer-om-asvg {
-  line-height: 22px;
-}
-
-.asvg-boks {
-  margin-left: 15px;
-  margin-right: 50px;
-}
-
-.as-boks {
-  margin-right: 15px;
-}
-
-.asvg-boks,
-.as-boks {
-  margin-top: 40px;
-  background-color: lightgreen;
-}
-
-.asvg-navn,
-.as-navn,
-.mer-om-asvg-overskrift {
+.asvg-overskrift {
+  color: white;
   font-weight: bold;
-  color: black;
-  margin: 10px 0px;
-  text-align: center;
+  width: 350px;
+  margin-left: 15%;
 }
 
-.image-container {
+.om-asvg {
+  color: white;
+  margin-left: 12.5%;
+  width: 25%;
+  line-height: 130%;
+}
+
+/* AS */
+
+.tekster {
   display: flex;
 }
 
-.image-container img {
-  align-items: center;
-  height: 250px;
+.as-overskrift {
+  color: white;
+  font-weight: bold;
+  margin-left: 35%;
 }
 
-.skram {
-  margin-left: 225px;
+.om-as {
+  color: white;
+  margin-left: 25.5%;
+  width: 25%;
+  line-height: 130%;
 }
 
-.vgs {
-  margin-left: 250px;
-}
+/* LINJENE */
 
-@media only screen and (min-device-width: 1000px) and (max-device-width : 1800px) {
-  .skram {
-      margin-left: 100px;
-  }
-
-  .vgs {
-      margin-left: 125px;
-  }
-}
-
-@media (max-width: 767px) {
-  .skram {
-      display: none;
-  }
-
-  .vgs {
-      display: none;
-  }
-
-  ul {
-      width: 100%;
-      margin-top: 5px;
-  }
-
-  li a {
-      padding: 7px 5px;
-  }
-
-  .container2 {
-      margin-right: 0px;
-      margin-left: 50px;
-  }
-}
-
-.container2 {
-  margin: 0px 450px;
+.mer-om-asvg-overskrift {
+  color: white;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: 40%;
+  font-weight: bold;
 }
 
 .mer-om-asvg {
-  margin: 15px 0px;
-  margin-left: 15px;
+  color: white;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 1%;
+  line-height: 115%;
 }
 
-.mer-om-asvg-boks {
-  margin-top: 15px;
-  background-color: lightgreen;
+.fet {
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 767px) {
+  .overskrifter {
+    margin-top: 5px;
+  }
+
+  .asvg-overskrift {
+    margin-left: 5%;
+  }
 }
