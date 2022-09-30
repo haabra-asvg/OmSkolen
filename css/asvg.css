@@ -122,7 +122,7 @@ button:hover {
 
   .bakgrunnsfarge {
     background-color: black;
-    height: 140%;
+    height: 110%;
     width: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4));
     background-position: center;
