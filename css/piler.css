@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+div button a:hover {
+  color: black;
+}
+
+div button a {
+  text-decoration: none;
+  color: black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.pilhoyre-content {
+  position: fixed;
+  top: 90%;
+  left: 90%;
+  width: 110px;
+  background: linear-gradient(to right, #fcdf03, #fcba03);
+  text-align: center;
+  height: 50px;
+  border: 0px;
+  transition: opacity 0.3s ease;
+}
+
+.pilhoyre-content:hover {
+  background: linear-gradient(tor right, #fcdf03, #fcba03);
+  opacity: 0.7;
+}
+
+.pilvenstre-content {
+  position: fixed;
+  top: 90%;
+  left: 3%;
+  width: 110px;
+  background: linear-gradient(to right, #fcdf03, #fcba03);
+  text-align: center;
+  height: 50px;
+  border: 0px;
+  transition: opacity 0.3s ease;
+}
+
+.pilvenstre-content:hover {
+  background: linear-gradient(to right, #fcdf03, #fcba03);
+  opacity: 0.7;
+}
+
+@media only screen and (max-width: 767px) {
+  .pilhoyre-content {
+    left: 70%;
+  }
+}

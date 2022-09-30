@@ -27,10 +27,6 @@ button a {
   transition: color 0.5s ease;
 }
 
-button a:hover {
-  color: blue;
-}
-
 .hjem:active {
   opacity: 0.75;
 }
@@ -64,4 +60,14 @@ button a:hover {
   font-weight: bold;
   color: white;
   line-height: 15px;
+}
+
+@media only screen and (max-width: 767px) {
+  .velkommen {
+    margin-left: 0%;
+  }
+
+  .velkommen-tekst {
+    margin-left: 0%;
+  }
 }

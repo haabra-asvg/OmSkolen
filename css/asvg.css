@@ -6,11 +6,6 @@
   border-color: blue;
 }
 
-button:hover {
-  background-color: green;
-  border-color: transparent;
-}
-
 .asvg:active {
   opacity: 0.75;
 }

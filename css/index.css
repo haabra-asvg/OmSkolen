@@ -98,3 +98,12 @@ button a {
         margin-left: 80px;
     }
 }
+
+button:hover {
+    background-color: black;
+    border-color: transparent;
+  }
+  
+button a:hover {
+    color: blue;
+}
