@@ -63,11 +63,15 @@ button a {
 }
 
 @media only screen and (max-width: 767px) {
-  .velkommen {
-    margin-left: 0%;
+  .box {
+    margin-left: 2.5%;
+    width: 95%;
+    line-height: 160%;
   }
 
   .velkommen-tekst {
     margin-left: 0%;
+    line-height: 140%;
+    height: 17%;
   }
 }
