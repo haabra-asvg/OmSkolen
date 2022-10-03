@@ -120,3 +120,25 @@ button a {
   width: 20%;
   border-radius: 4px;
 }
+
+/* PHONE SUPPORT */
+
+@media only screen and (max-width: 767px) {
+  .i-boks {
+    margin-left: 5px;
+    width: 200px;
+  }
+
+  .i-boks-tekst-tekst {
+    line-height: 140%;
+  }
+
+  .m-boks-tekst-tekst {
+    line-height: 140%;
+  }
+
+  .m-boks {
+    margin-left: 20px;
+    width: 200px;
+  }
+}
