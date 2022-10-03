@@ -36,7 +36,7 @@ button a {
 }
 
 .lime-box {
-  height: 60%;
+  height: 80%;
   width: 100%;
   background-color: green;
   background-position: center;
@@ -124,6 +124,18 @@ button a {
 /* PHONE SUPPORT */
 
 @media only screen and (max-width: 767px) {
+  .background-image {
+    height: 98%;
+  }
+
+  .black-box {
+    top: 140%;
+  }
+
+  .lime-box {
+    top: 200%;
+  }
+
   .i-boks {
     margin-left: 5px;
     width: 200px;
@@ -140,5 +152,18 @@ button a {
   .m-boks {
     margin-left: 20px;
     width: 200px;
+  }
+
+  .prosjekter-bilde {
+    display: none;
+  }
+
+  .prosjekter-tekst {
+    margin-left: 35%;
+    line-height: 140%;
+  }
+
+  .konseptutvikling-tekst-container {
+    width: 40%;
   }
 }

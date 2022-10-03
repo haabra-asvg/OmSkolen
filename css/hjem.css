@@ -66,12 +66,17 @@ button a {
   .box {
     margin-left: 2.5%;
     width: 95%;
-    line-height: 160%;
+    line-height: 140%;
+    height: 60%;
   }
 
   .velkommen-tekst {
     margin-left: 0%;
-    line-height: 140%;
+    line-height: 120%;
     height: 17%;
+  }
+
+  .background-image {
+    height: 60%;
   }
 }
