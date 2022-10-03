@@ -23,6 +23,28 @@ button a {
   position: absolute;
 }
 
+/* BOKSER */
+
+.black-box {
+  height: 60%;
+  width: 100%;
+  background-color: black;
+  background-position: center;
+  background-size: cover;
+  top: 100%;
+  position: absolute;
+}
+
+.lime-box {
+  height: 60%;
+  width: 100%;
+  background-color: green;
+  background-position: center;
+  background-size: cover;
+  top: 160%;
+  position: absolute;
+}
+
 .im-boks {
   display: flex;
 }
@@ -55,4 +77,46 @@ button a {
   line-height: 25px;
   margin-top: 10px;
   margin-left: 10px;
+}
+
+/* MINE PROSJEKTER */
+
+.prosjekter {
+  color: white;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.tekst-container {
+  display: flex;
+}
+
+.prosjekter-tekst {
+  color: black;
+  background: lightgreen;
+  width: 30%;
+  height: 20%;
+  border-radius: 4px;
+}
+
+.prosjekter-bilde {
+  width: 20%;
+  height: 20%;
+  margin-right: 30%;
+  margin-left: 10%;
+}
+
+/* Programfag */
+
+.konseptutvikling-overskrift {
+  color: white;
+  margin-top: 5%;
+  margin-left: 2.5%;
+}
+
+.konseptutvikling-tekst-container {
+  background: lightgreen;
+  margin-left: 2.5%;
+  width: 20%;
+  border-radius: 4px;
 }
