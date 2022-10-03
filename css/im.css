@@ -36,7 +36,7 @@ button a {
 }
 
 .lime-box {
-  height: 80%;
+  height: 100%;
   width: 100%;
   background-color: green;
   background-position: center;
@@ -108,22 +108,58 @@ button a {
 
 /* Programfag */
 
-.konseptutvikling-overskrift {
+.programfag-container {
+  display: flex;
+}
+
+.konseptutvikling-overskrift,
+.mediefag-overskrift,
+.teknologiforståelse-overskrift {
   color: white;
   margin-top: 5%;
-  margin-left: 2.5%;
+  text-align: center;
+}
+
+.teknologiforståelse-overskrift {
+  margin-top: 6%;
+  margin-left: 10%;
+}
+
+.konseptutvikling-tekst-container,
+.mediefag-tekst-container,
+.teknologiforståelse-tekst-container {
+  background: lightgreen;
+  width: 40%;
+  border-radius: 4px;
 }
 
 .konseptutvikling-tekst-container {
-  background: lightgreen;
-  margin-left: 2.5%;
-  width: 20%;
-  border-radius: 4px;
+  margin-left: 25%;
+}
+
+.mediefag-tekst-container {
+  margin-left: 25%;
+}
+
+.teknologiforståelse-tekst-container {
+  float: right;
+  margin-right: 25%;
+}
+
+.mellomrom {
+  display: block;
+  margin-top: 5%;
+}
+
+a u {
+  color: blue;
 }
 
 /* PHONE SUPPORT */
 
 @media only screen and (max-width: 767px) {
+  /* IMAGE + BOKSER */
+  
   .background-image {
     height: 98%;
   }
@@ -134,7 +170,10 @@ button a {
 
   .lime-box {
     top: 200%;
+    height: 120%;
   }
+
+  /* I OG M BOKSER */
 
   .i-boks {
     margin-left: 5px;
@@ -154,16 +193,43 @@ button a {
     width: 200px;
   }
 
+  /* PROSJEKTER */
+
   .prosjekter-bilde {
     display: none;
   }
 
   .prosjekter-tekst {
-    margin-left: 35%;
+    margin-left: 25%;
     line-height: 140%;
+    width: 50%;
   }
 
-  .konseptutvikling-tekst-container {
-    width: 40%;
+  /* PROGRAMFAG TEKSTER */
+
+  .konseptutvikling-tekst-container,
+  .mediefag-tekst-container,
+  .teknologiforståelse-tekst-container {
+    width: 60%;
+    margin-left: 20%;
+    text-align: center;
+  }
+
+  .konseptutvikling-overskrift,
+  .mediefag-overskrift,
+  .teknologiforståelse-overskrift {
+    text-align: center;
+  }
+
+  .teknologiforståelse-overskrift {
+    margin-left: 0%;
+  }
+
+  .teknologiforståelse-tekst-container {
+    float: none;
+  }
+
+  .programfag-container {
+    display: block;
   }
 }
