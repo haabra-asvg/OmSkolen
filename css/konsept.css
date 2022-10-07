@@ -1,0 +1,65 @@
+/* COLORED BOX */
+
+.colored-box {
+  height: 78.3%;
+  width: 100%;
+  background-color: limegreen;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+}
+
+/* TITTEL */
+
+.konsepttittel {
+  text-align: center;
+}
+
+/* PROSJEKTER */
+
+.rad1,
+.rad2 {
+  display: flex;
+}
+
+.prosjekt1-container {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border: 5px solid silver;
+  text-align: left;
+  margin-top: 2.5%;
+  width: 285px;
+  margin-left: 25%;
+  background-color: white;
+}
+
+.prosjekt2-container {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border: 5px solid silver;
+  text-align: left;
+  margin-top: 2.5%;
+  width: 285px;
+  margin-left: 10%;
+  background-color: white;
+}
+
+@media only screen and (max-width: 767px) {
+
+  .prosjekt1-container,
+  .prosjekt2-container {
+    width: 39%;
+    margin-left: 5%;
+  }
+
+  .prosjekt2-container {
+    margin-left: 15%;
+  }
+
+  .rad2 {
+    margin-top: 5%;
+  }
+
+}

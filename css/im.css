@@ -159,6 +159,11 @@ a u {
 
 @media only screen and (max-width: 767px) {
   /* IMAGE + BOKSER */
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
   
   .background-image {
     height: 98%;
@@ -170,7 +175,7 @@ a u {
 
   .lime-box {
     top: 200%;
-    height: 120%;
+    height: 123%;
   }
 
   /* I OG M BOKSER */
@@ -211,7 +216,6 @@ a u {
   .mediefag-tekst-container,
   .teknologiforståelse-tekst-container {
     width: 60%;
-    margin-left: 20%;
     text-align: center;
   }
 
@@ -221,8 +225,12 @@ a u {
     text-align: center;
   }
 
+  .mediefag-overskrift {
+    margin-left: -10%;
+  }
+
   .teknologiforståelse-overskrift {
-    margin-left: 0%;
+    margin-left: -17%;
   }
 
   .teknologiforståelse-tekst-container {
@@ -232,4 +240,54 @@ a u {
   .programfag-container {
     display: block;
   }
+
+  .teknologiforståelse-tekst-container {
+    margin-left: 11%;
+  }
+  .mediefag-tekst-container {
+    margin-left: 15%;
+  }
+  .konseptutvikling-tekst-container {
+    margin-left: 17%;
+  }
+}
+
+/* DESKTOP SUPPORT */
+
+@media only screen and (max-width: 2560px) {
+  .background-image {
+    height: 88%;
+  }
+
+  .konseptutvikling-overskrift,
+  .mediefag-overskrift,
+  .teknologiforståelse-overskrift {
+    text-align: center;
+  }
+
+  .mediefag-tekst-container {
+    align-items: center;
+  }
+
+  .konseptutvikling-container,
+  .mediefag-container,
+  .teknologiforståelse-container {
+    padding: 0;
+    margin: 0;
+  }
+
+  .konseptutvikling-container {
+    margin-left: 5%;
+  }
+
+  .mediefag-container {
+    margin-left: 8%;
+  }
+
+  .teknologiforståelse-container {
+    float: right;
+    margin-left: 14%;
+    margin-right: none;
+  }
+
 }
