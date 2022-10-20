@@ -11,7 +11,7 @@
 
 /* TITTEL */
 
-.medietittel {
+.teknologiforståelsetittel {
   text-align: center;
 }
 
@@ -62,16 +62,4 @@
     margin-top: 5%;
   }
 
-}
-
-.shh {
-  color: white;
-  position: absolute;
-  top: 97%;
-  left: 98%;
-}
-
-p a {
-  text-decoration: none;
-  color: darkslategray;
 }
