@@ -3,7 +3,7 @@
 .colored-box {
   height: 78.3%;
   width: 100%;
-  background-color: darkslategray;
+  background-color: rgb(153, 155, 163);
   background-position: center;
   background-size: cover;
   position: absolute;
@@ -26,7 +26,7 @@
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
-  border: 5px solid silver;
+  border: 5px solid black;
   text-align: left;
   margin-top: 2.5%;
   width: 285px;
@@ -38,12 +38,25 @@
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
-  border: 5px solid silver;
+  border: 5px solid black;
   text-align: left;
   margin-top: 2.5%;
   width: 285px;
   margin-left: 10%;
   background-color: white;
+}
+
+.prosjekt1-contents,
+.prosjekt2-contents {
+  margin-left: 1%;
+}
+
+.tittel {
+  margin-top: 1%;
+}
+
+.beskrivelse {
+  margin-bottom: 1%;
 }
 
 @media only screen and (max-width: 767px) {

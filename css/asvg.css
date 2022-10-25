@@ -1,3 +1,11 @@
+.asvg-overskrift,
+.om-asvg,
+.hvem-tittel,
+.hvem-tekst,
+.hvem-knapp {
+  font-family: Alumni Sans;
+}
+
 .asvg {
   background-color: transparent;
   border-color: transparent;
@@ -18,68 +26,51 @@
   background-position: center;
   background-size: cover;
   position: absolute;
-}
-
-.container {
-  background-color: black;
-}
+} 
 
 /* ASVG */
-
-.overskrifter {
-  display: flex;
-  margin-top: 30px;
-}
 
 .asvg-overskrift {
   color: white;
   font-weight: bold;
-  width: 350px;
-  margin-left: 15%;
+  text-align: center;
+  margin-top: 1%;
+  font-size: 2rem;
 }
 
 .om-asvg {
   color: white;
-  margin-left: 12.5%;
-  width: 25%;
   line-height: 130%;
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  font-size: 1.2rem;
 }
 
-/* AS */
-
-.tekster {
-  display: flex;
+.hvem-boks {
+  background: white;
+  text-align: center;
+  margin: 0% 39%;
+  margin-top: 5%;
 }
 
-.as-overskrift {
-  color: white;
-  font-weight: bold;
-  margin-left: 35%;
+.hvem-tittel {
+  font-size: 2rem;
 }
 
-.om-as {
-  color: white;
-  margin-left: 25.5%;
-  width: 25%;
-  line-height: 130%;
+.hvem-tekst {
+  margin: 0% 1%;
+  font-size: 1.2rem;
 }
 
-/* LINJENE */
-
-.mer-om-asvg-overskrift {
-  color: white;
-  margin-top: 2%;
-  margin-bottom: 2%;
-  margin-left: 40%;
-  font-weight: bold;
-}
-
-.mer-om-asvg {
-  color: black;
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-bottom: 1%;
-  line-height: 115%;
+.hvem-knapp {
+  background-color: rgb(101, 208, 193);
+  margin-top: 2rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1.5rem;
+  margin-bottom: 3%;
+  padding: 0 10%;
 }
 
 .fet {
@@ -87,23 +78,16 @@
 }
 
 @media only screen and (max-width: 767px) {
-  .overskrifter {
-    margin-top: 5px;
-  }
 
   .asvg-overskrift {
-    margin-left: 10%;
-    width: 150px;
+    margin-left: 25%;
+    width: 200px;
     margin-bottom: 2%;
-  }
-
-  .as-overskrift {
-    margin-left: 17.5%;
   }
 
   .om-asvg {
     width: 50%;
-    margin-left: 0%;
+    margin-left: 25%;
   }
 
   .om-as {
@@ -117,7 +101,7 @@
 
   .bakgrunnsfarge {
     background-color: black;
-    height: 60%;
+    height: 120%;
     width: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4));
     background-position: center;
@@ -125,7 +109,10 @@
     position: absolute;
   }
 
-  .mer-om-asvg {
-    line-height: 140%;
+  .hvem-boks {
+    width: 50%;
+    margin-top: 20%;
+    margin-left: 25%;
   }
+
 }

@@ -1,17 +1,40 @@
+.i-boks-tekst-overskrift,
+.m-boks-tekst-overskrift,
+.i-boks-tekst-tekst,
+.m-boks-tekst-tekst,
+.prosjekter,
+.prosjekter-tekst,
+.prosjekter-knapp {
+  font-family: Alumni Sans;
+}
+
+.i-boks-tekst-overskrift,
+.m-boks-tekst-overskrift {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.prosjekter {
+  font-size: 3rem;
+}
+
+.i-boks-tekst-tekst,
+.m-boks-tekst-tekst,
+.prosjekter-tekst {
+  font-size: 1.2rem;
+}
+
+.prosjekter-tekst,
+.prosjekter-knapp {
+  font-size: 1.5rem;
+}
+
 .im {
   background-color: transparent;
   border-color: transparent;
   transition: opacity 0.5s ease;
   transition: background-color 0.5s ease;
   border-color: blue;
-}
-
-button a {
-  transition: color 0.5s ease;
-}
-
-.im:active {
-  opacity: 0.75;
 }
 
 .background-image {
@@ -25,10 +48,10 @@ button a {
 
 /* BOKSER */
 
-.lime-box {
-  height: 100%;
+.white-box {
+  height: 50%;
   width: 100%;
-  background-color: darkslategray;
+  background-color: white;
   background-position: center;
   background-size: cover;
   top: 100%;
@@ -72,21 +95,17 @@ button a {
 /* MINE PROSJEKTER */
 
 .prosjekter {
-  color: white;
+  color: black;
   text-align: center;
   margin-bottom: 15px;
 }
 
-.tekst-container {
-  display: flex;
-}
-
 .prosjekter-tekst {
   color: black;
-  background: white;
-  width: 30%;
   height: 20%;
   border-radius: 4px;
+  text-align: center;
+  margin: 0% 25%;
 }
 
 .prosjekter-bilde {
@@ -96,44 +115,16 @@ button a {
   margin-left: 10%;
 }
 
-/* Programfag */
-
-.programfag-container {
+.knapp-div {
   display: flex;
+  margin-top: 2%;
+  justify-content: center;
 }
 
-.konseptutvikling-overskrift,
-.mediefag-overskrift,
-.teknologiforståelse-overskrift {
-  color: white;
-  margin-top: 5%;
-  text-align: center;
-}
-
-.teknologiforståelse-overskrift {
-  margin-top: 6%;
-  margin-left: 10%;
-}
-
-.konseptutvikling-tekst-container,
-.mediefag-tekst-container,
-.teknologiforståelse-tekst-container {
-  background: lightgreen;
-  width: 40%;
-  border-radius: 4px;
-}
-
-.konseptutvikling-tekst-container {
-  margin-left: 25%;
-}
-
-.mediefag-tekst-container {
-  margin-left: 25%;
-}
-
-.teknologiforståelse-tekst-container {
-  float: right;
-  margin-right: 25%;
+.prosjekter-knapp {
+  background: rgb(101, 208, 193);
+  border: none;
+  height: 20%;
 }
 
 .mellomrom {
@@ -141,143 +132,36 @@ button a {
   margin-top: 5%;
 }
 
-a u {
-  color: blue;
-}
-
 /* PHONE SUPPORT */
 
 @media only screen and (max-width: 767px) {
   /* IMAGE + BOKSER */
 
-  * {
-    margin: 0;
-    padding: 0;
+  .i-boks {
+    width: 48%;
+    margin-left: 1%;
+  }
+
+  .i-boks-tekst-overskrift {
+    font-size: 1.75rem;
   }
   
-  .background-image {
-    height: 98%;
-  }
-
-  .black-box {
-    top: 140%;
-  }
-
-  .lime-box {
-    top: 200%;
-    height: 123%;
-  }
-
-  /* I OG M BOKSER */
-
-  .i-boks {
-    margin-left: 5px;
-    width: 200px;
-  }
-
-  .i-boks-tekst-tekst {
-    line-height: 140%;
-  }
-
-  .m-boks-tekst-tekst {
-    line-height: 140%;
-  }
-
   .m-boks {
-    margin-left: 20px;
-    width: 200px;
+    width: 49%;
+    margin-left: 1%;
+    margin-right: 1%;
   }
 
-  /* PROSJEKTER */
-
-  .prosjekter-bilde {
-    display: none;
-  }
-
-  .prosjekter-tekst {
-    margin-left: 25%;
-    line-height: 140%;
-    width: 50%;
-  }
-
-  /* PROGRAMFAG TEKSTER */
-
-  .konseptutvikling-tekst-container,
-  .mediefag-tekst-container,
-  .teknologiforståelse-tekst-container {
-    width: 60%;
-    text-align: center;
-  }
-
-  .konseptutvikling-overskrift,
-  .mediefag-overskrift,
-  .teknologiforståelse-overskrift {
-    text-align: center;
-  }
-
-  .mediefag-overskrift {
-    margin-left: -10%;
-  }
-
-  .teknologiforståelse-overskrift {
-    margin-left: -17%;
-  }
-
-  .teknologiforståelse-tekst-container {
-    float: none;
-  }
-
-  .programfag-container {
-    display: block;
-  }
-
-  .teknologiforståelse-tekst-container {
-    margin-left: 11%;
-  }
-  .mediefag-tekst-container {
-    margin-left: 15%;
-  }
-  .konseptutvikling-tekst-container {
-    margin-left: 17%;
-  }
-}
-
-/* DESKTOP SUPPORT */
-
-@media only screen and (max-width: 2560px) {
   .background-image {
-    height: 88%;
+    height: 100%;
   }
 
-  .konseptutvikling-overskrift,
-  .mediefag-overskrift,
-  .teknologiforståelse-overskrift {
-    text-align: center;
+  .white-box {
+    top: 120%;
+    height: 90%;
   }
 
-  .mediefag-tekst-container {
-    align-items: center;
+  .knapp-div {
+    margin-top: 80%;
   }
-
-  .konseptutvikling-container,
-  .mediefag-container,
-  .teknologiforståelse-container {
-    padding: 0;
-    margin: 0;
-  }
-
-  .konseptutvikling-container {
-    margin-left: 5%;
-  }
-
-  .mediefag-container {
-    margin-left: 8%;
-  }
-
-  .teknologiforståelse-container {
-    float: right;
-    margin-left: 14%;
-    margin-right: none;
-  }
-
 }

@@ -10,6 +10,10 @@
     float: left;
 }
 
+.navbar {
+    height: 123.3px;
+}
+
 ul {
     list-style-type: none;
     overflow: hidden;
@@ -39,16 +43,7 @@ button a {
 }
 
 .hjem {
-    margin-left: 479px;
-}
-
-button {
-    transition: background-color 0.5s ease;
-}
-
-button:active {
-    opacity: 0.75;
-    transition: opacity 0.5s ease;
+    margin-left: 550px;
 }
 
 .asvg,
@@ -60,10 +55,11 @@ button:active {
 }
 
 .logo {
-    width: 250px;
+    width: 150px;
     height: 150px;
-    margin-top: 5px;
-    float: right;
+    position: absolute;
+    top: -5%;
+    left: 88.5%;
 }
 
 .fet {
@@ -78,7 +74,7 @@ button a {
 
 @media only screen and (max-width: 767px) {
     .hjem {
-        margin-left: 1px;
+        margin-left: -10%;
     }
     button a {
         padding: 7px 8px;
@@ -95,15 +91,14 @@ button a {
 
     .logo {
         float: left;
-        margin-left: 80px;
+        position: absolute;
+        width: 75px;
+        height: 75px;
+        top: 9%;
+        left: 75%;
     }
-}
 
-button:hover {
-    background-color: black;
-    border-color: transparent;
-  }
-  
-button a:hover {
-    color: blue;
+    .navbar {
+        height: 150px;
+    }
 }

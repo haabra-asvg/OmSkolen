@@ -1,180 +1,134 @@
-.prosjekter {
-  background-color: transparent;
-  border-color: transparent;
-  transition: opacity 0.5s ease;
-  transition: background-color 0.5s ease;
-  border-color: blue;
+.konsepttittel,
+.konseptutvikling-tittel,
+.mediefag-tittel,
+.teknologiforståelse-tittel,
+.prosjekt1-contents,
+.prosjekt2-contents {
+  font-family: Alumni Sans;
 }
 
-button a {
-  transition: color 0.5s ease;
+.konseptutvikling-tittel,
+.mediefag-tittel,
+.teknologiforståelse-tittel {
+  font-size: 2rem;
 }
 
-.prosjekter:active {
-  opacity: 0.75;
+.konsepttittel {
+  font-size: 3rem;
 }
 
-.overskrifter-kpt {
-  margin-top: 50px;
+.prosjekt1-contents,
+.prosjekt2-contents {
+  font-size: 1.5rem;
+}
+
+/* COLORED BOX */
+
+.colored-box {
+  height: 78.3%;
+  width: 100%;
+  background-color: white;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+}
+
+
+/* BILDE */
+
+.bilde {
+  height: 2%;
+}
+
+.tittel-bilde {
+  height: 1200%;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(../bilder/bakgrunn-im.jfif);
+  background-position: center;
+  background-size: cover;
+  position: aboslute;
+}
+
+/* TITTEL */
+
+.konsepttittel {
+  color: white;
+  text-align: center;
+  padding-top: 2.5%;
+}
+
+/* TITTLER */
+
+.konseptutvikling-tittel,
+.mediefag-tittel,
+.teknologiforståelse-tittel {
+  text-align: center;
+  margin-top: 10%;
+}
+
+/* PROSJEKTER TIL KONSEPTUTVIKLING */
+
+.rad1,
+.rad2 {
   display: flex;
 }
 
-.o1 {
-  margin-left: 50px;
-}
-.o4 {
-  margin-left: 150px;
-  margin-right: 185px;
-  width: 234.4px;
-}
-
-.o5 {
-  margin-right: 160px;
-}
-
-.o7 {
-  margin-left: 190px;
-  margin-right: 320px;
-}
-
-.o9 {
-  margin-left: 265px;
-}
-
-.o1,
-.o2,
-.o3,
-.o6,
-.o9 {
-  margin-right: 50px;
-}
-
-.kp1,
-.ph1,
-.t1,
-.kr1 {
-  border: 1px;
-  border-color: lightgray;
-}
-
-.rad1-kpt {
-  display: flex;
-}
-
-.kp1 {
+.prosjekt1-container {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
-  border: 5px solid silver;
+  /* border: 5px solid black; */
   text-align: left;
-  margin-top: 15px;
-  width: 285px;
-  margin-left: 125px;
+  margin-top: 2.5%;
+  margin-left: 15%;
+  background-color: rgb(146, 159, 212);
 }
 
-.ph1 {
+.prosjekt2-container {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
-  border: 5px solid silver;
+  /* border: 5px solid black; */
   text-align: left;
-  margin-top: 15px;
-  width: 285px;
-  margin-left: 175px;
+  margin-top: 2.5%;
+  margin-left: 10%;
+  background-color: rgb(146, 159, 212);
 }
 
-.t1 {
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  border: 5px solid silver;
-  text-align: left;
-  margin-top: 15px;
-  width: 285px;
-  margin-left: 95px;
+.prosjekt1-container,
+.prosjekt2-container {
+  width: 30%;
 }
 
-
-.overskrifter-kye {
-  margin-top: 50px;
-  display: flex;
+.prosjekt1-contents,
+.prosjekt2-contents {
+  margin-left: 1%;
 }
 
-.rad1-kye {
-  display: flex;
+.tittel {
+  margin-top: 1%;
 }
 
-.kr1 {
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  border: 5px solid silver;
-  text-align: left;
-  margin-top: 15px;
-  width: 285px;
-  margin-left: 125px;
+.beskrivelse {
+  margin-bottom: 1%;
 }
 
-.yff1 {
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  border: 5px solid silver;
-  text-align: left;
-  margin-top: 15px;
-  width: 285px;
-  margin-left: 175px;
-}
+@media only screen and (max-width: 767px) {
+  .konsepttittel {
+    padding-top: 7.5%;
+  }
 
-.en1 {
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  border: 5px solid silver;
-  text-align: left;
-  margin-top: 15px;
-  width: 285px;
-  margin-left: 95px;
-}
+  .konseptutvikling-tittel {
+    margin-top: 40%;
+  }
 
-.overskrifter-namana {
-  margin-top: 50px;
-  display: flex;
-}
+  .prosjekt1-container {
+    margin-left: 5%;
+    width: 42.5%;
+  }
 
-.rad1-namana {
-  display: flex;
-}
-
-.na1 {
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  border: 5px solid silver;
-  text-align: left;
-  margin-top: 15px;
-  width: 285px;
-  margin-left: 125px;
-}
-
-.ma1 {
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  border: 5px solid silver;
-  text-align: left;
-  margin-top: 15px;
-  width: 285px;
-  margin-left: 175px;
-}
-
-.nan1 {
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  border: 5px solid silver;
-  text-align: left;
-  margin-top: 15px;
-  width: 285px;
-  margin-left: 95px;
+  .prosjekt2-container {
+    margin-left: 5%;
+    width: 42.5%;
+  }
 }

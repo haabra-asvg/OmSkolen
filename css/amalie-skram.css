@@ -1,0 +1,61 @@
+.bakgrunnsfarge {
+    background-color: black;
+    height: 78.3%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4));
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+.container {
+    display: flex;
+    height: 75%;
+}
+
+.tekstboks {
+    color: white;
+    text-align: center;
+    font-family: Alumni Sans;
+}
+
+.as-overskrift {
+    font-weight: bold;
+    font-size: 2rem;
+    margin-top: 1%;
+}
+
+.om-as {
+    margin: 0% 25%;
+    font-size: 1.2rem;
+    line-height: 130%;
+    margin-bottom: 1%;
+}
+
+.bilde {
+    height: 50%;
+    margin-right: 16.65%;
+    margin-top: 1%;
+}
+
+@media only screen and (max-width: 767px) {
+    .tekstboks {
+        width: 100%;
+    }
+
+    .as-overskrift {
+        width: 98%;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+
+    .om-as {
+        width: 98%;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+
+    .bilde {
+        margin-right: 2.5%;
+    }
+}
