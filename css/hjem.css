@@ -7,7 +7,7 @@
 }
 
 .background-image {
-  height: 78.3%;
+  height: 82.7%;
   width: 100%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(../bilder/index-background-image.jpg);
   background-position: center;
@@ -107,13 +107,5 @@ button a span:hover {
   .div-im-knapp {
     margin-left: 25%;
     margin-top: 20%;
-  }
-}
-
-/* DESKTOP SUPPORT */
-
-@media only screen and (max-width: 2560px) {
-  .background-image {
-    height: 88%;
   }
 }
