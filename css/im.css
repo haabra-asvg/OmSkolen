@@ -37,8 +37,8 @@
   border-color: blue;
 }
 
-.background-image {
-  height: 78.3%;
+.bilde {
+  height: 20%;
   width: 100%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(../bilder/bakgrunn-im.jfif);
   background-position: center;
@@ -46,16 +46,10 @@
   position: absolute;
 }
 
-/* BOKSER */
-
-.white-box {
-  height: 50%;
-  width: 100%;
-  background-color: white;
-  background-position: center;
-  background-size: cover;
-  top: 100%;
-  position: absolute;
+.om-im {
+  color: white;
+  text-align: center;
+  padding-top: 4%;
 }
 
 .im-boks {
@@ -72,32 +66,34 @@
 }
 
 .i-boks {
-  margin-left: 125px;
-  margin-top: 100px;
-  background-color: white;
-  width: 600px;
+  margin-top: 15%;
+  background-color: rgb(146, 159, 212);
+  width: 36%;
+  margin-left: 11.5%;
+  
 }
 
 .m-boks {
-  margin-left: 150px;
-  margin-top: 100px;
-  background-color: white;
-  width: 600px;
+  background-color: rgb(146, 159, 212);
+  margin-top: 15%;
+  width: 36%;
+  margin-left: 5%;
 }
 
 .i-boks-tekst-tekst,
 .m-boks-tekst-tekst {
-  line-height: 25px;
-  margin-top: 10px;
-  margin-left: 10px;
+  line-height: 150%;
+  margin-top: 1%;
+  margin-left: 1%;
 }
 
 /* MINE PROSJEKTER */
 
 .prosjekter {
+  margin-top: 2.5%;
   color: black;
   text-align: center;
-  margin-bottom: 15px;
+  margin-bottom: 1%;
 }
 
 .prosjekter-tekst {
@@ -119,6 +115,7 @@
   display: flex;
   margin-top: 2%;
   justify-content: center;
+  margin-bottom: 2.5%;
 }
 
 .prosjekter-knapp {
