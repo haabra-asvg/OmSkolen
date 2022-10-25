@@ -4,7 +4,8 @@
 .m-boks-tekst-tekst,
 .prosjekter,
 .prosjekter-tekst,
-.prosjekter-knapp {
+.prosjekter-knapp,
+.om-im {
   font-family: Alumni Sans;
 }
 
@@ -14,7 +15,8 @@
   font-size: 2rem;
 }
 
-.prosjekter {
+.prosjekter,
+.om-im {
   font-size: 3rem;
 }
 
@@ -49,7 +51,7 @@
 .om-im {
   color: white;
   text-align: center;
-  padding-top: 4%;
+  padding-top: 2.5%;
 }
 
 .im-boks {
