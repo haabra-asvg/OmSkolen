@@ -25,7 +25,7 @@
 /* COLORED BOX */
 
 .colored-box {
-  height: 78.3%;
+  height: 265%;
   width: 100%;
   background-color: white;
   background-position: center;
@@ -41,7 +41,7 @@
 }
 
 .tittel-bilde {
-  height: 1200%;
+  height: 400%;
   width: 100%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(../bilder/bakgrunn-im.jfif);
   background-position: center;
