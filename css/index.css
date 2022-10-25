@@ -1,7 +1,11 @@
+/* CSS'EN TIL FJERNING AV ALL AUTOMATISK MARGIN OG PADDING PÅ TEKSTEN */
+
 * {
     margin: 0;
     padding: 0;
 }
+
+/* CSS'EN TIL ENDRING AV STØRRELSEN PÅ AMALIE SKRAM SKJOLDET */
 
 .asvg-logo {
     margin-top: 30px;
@@ -10,9 +14,13 @@
     float: left;
 }
 
+/* CSS'EN TIL ENDRING AV HØYDE PÅ NAVIGASJONS BAREN */
+
 .navbar {
     height: 123.3px;
 }
+
+/* CSS'EN TIL Å FÅ NAVIGASJONS BAREN PÅ EN RETT LINJE*/
 
 ul {
     list-style-type: none;
@@ -24,6 +32,8 @@ ul {
     text-align: center;
 }
 
+/* CSS'EN TIL Å GJØRE HELE KNAPPEN TRYKKBAR */
+
 button a {
     display: block;
     text-align: center;
@@ -32,27 +42,25 @@ button a {
     color: black;
 }
 
+/* CSS'EN TIL ENDRING AV STØRRELSEN OG FARGEN PÅ KNAPPENE */
+
 .asvg,
 .hjem,
-.im,
-.prosjekter {
+.im {
     background-color: transparent;
     margin-top: 30px;
     margin-right: 5px;
     border-radius: 70px;
+    border-color: blue;
 }
+
+/* CSS'EN TIL MELLOMROMMET MELLOM AMALIE SKRAM SKJOLDET OG HJEM KNAPPEN */
 
 .hjem {
     margin-left: 550px;
 }
 
-.asvg,
-.im,
-.hjem,
-.asvg,
-.prosjekter {
-    border-color: blue;
-}
+/* CSS'EN TIL POSISJONEN OG STØRRELSEN PÅ BILDET AV MEG */
 
 .logo {
     width: 150px;
@@ -62,9 +70,13 @@ button a {
     left: 88.5%;
 }
 
+/* CSS'EN TIL ALLE ORD MED "span fet" */
+
 .fet {
     font-weight: bold;
 }
+
+/* CSS'EN TIL FJERNING AV AUTOMATISK LINK DEKORASJON OG LEGGE EN SVART SKRIFTFARGE */
 
 span a,
 button a {
@@ -72,22 +84,35 @@ button a {
     color: black;
 }
 
+/* PHONE SUPPORT */
+
 @media only screen and (max-width: 767px) {
+
+    /* CSS'EN TIL SENRERING AV HJEM KNAPPEN */
     .hjem {
         margin-left: -10%;
     }
+
+    /* CSS'EN SLIK AT HELE KNAPPEN ER TRYKKBAR*/
+
     button a {
         padding: 7px 8px;
     }
+
+    /* CSS'EN TIL AMALIE SKRAM SKJOLDET */
 
     .asvg-logo {
         display: block;
         padding-right: 111px;
     }
 
+    /* CSS'EN TIL MELLOMROMMET MELLOM IM OG ASVG KNAPPEN */
+
     .asvg {
         margin-right: 1px;
     }
+
+    /* CSS'EN TIL STØRRELSEN OG POSISJONEN AV BILDET PÅ TELEFON */
 
     .logo {
         float: left;
@@ -97,6 +122,8 @@ button a {
         top: 9%;
         left: 75%;
     }
+
+    /* CSS'EN TIL ENDRING AV HØYDEN PÅ NAVIGASJONS BAREN */
 
     .navbar {
         height: 150px;

@@ -1,10 +1,4 @@
-.hjem {
-  background-color: transparent;
-  border-color: transparent;
-  transition: opacity 0.5s ease;
-  transition: background-color 0.5s ease;
-  border-color: blue;
-}
+/* CSS'EN TIL BAKGRUNNSBILDET */
 
 .background-image {
   height: 82.7%;
@@ -15,14 +9,7 @@
   position: absolute;
 }
 
-.hjem:active {
-  opacity: 0.75;
-}
-
-.mainpage {
-  display: flex;
-  height: 75%;
-}
+/* CSS'EN TIL FLEX BOKSEN TIL TEKSTEN */
 
 .box {
   background-color: transparent;
@@ -31,6 +18,8 @@
   margin-right: 25%;
   display: block;
 }
+
+/* CSS'EN TIL ENDRING AV OVERSKRIFTEN */
 
 .velkommen {
   margin-top: 30px;
@@ -44,6 +33,8 @@
   font-family: Alumni Sans;
 }
 
+/* CSS'EN TIL ENDRING AV TEKSTEN */
+
 .velkommen-tekst {
   margin-top: 35px;
   text-align: center;
@@ -55,6 +46,8 @@
   font-size: 1.5rem;
 }
 
+/* CSS'EN TIL KNAPPEN */
+
 .se-hva {
   background-color: rgb(101, 208, 193);
   margin-top: 2rem;
@@ -64,24 +57,19 @@
   font-size: 1.2rem;
 }
 
+/* CSS'EN TIL SENTRERING AV KNAPPEN */
+
 .div-im-knapp {
   display: flex;
   justify-content: center;
 }
 
-.se-hva:hover {
-  background-color: rgb(101, 208, 193);
-  opacity: 1;
-  color: black;
-}
-
-button a span:hover {
-  color: black;
-}
-
 /* PHONE SUPPORT */
 
 @media only screen and (max-width: 767px) {
+
+  /* CSS'EN TIL FLEX BOKSEN */
+
   .box {
     margin-left: 2.5%;
     width: 95%;
@@ -89,10 +77,14 @@ button a span:hover {
     height: 60%;
   }
 
+  /* CSS'EN TIL OVERSKRIFTEN */
+
   .velkommen {
     margin-left: 25%;
     line-height: 120%;
   }
+
+  /* CSS'EN TIL TEKSTEN */
 
   .velkommen-tekst {
     margin-left: 25%;
@@ -100,9 +92,13 @@ button a span:hover {
     height: 17%;
   }
 
+  /* CSS'EN TIL BAKGRUNNSBILDET */
+
   .background-image {
     height: 60%;
   }
+
+  /* CSS'EN TIL KNAPPEN */
 
   .div-im-knapp {
     margin-left: 25%;

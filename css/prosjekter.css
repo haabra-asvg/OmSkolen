@@ -1,3 +1,5 @@
+/* ENDRING AV FONTEN */
+
 .konsepttittel,
 .konseptutvikling-tittel,
 .mediefag-tittel,
@@ -22,7 +24,7 @@
   font-size: 1.5rem;
 }
 
-/* COLORED BOX */
+/* CSS'EN TIL BAKGRUNNSFARGEN */
 
 .colored-box {
   height: 265%;
@@ -34,11 +36,13 @@
 }
 
 
-/* BILDE */
+/* CSS'EN TIL BILDESTØRRELSESENDRINGEN */
 
 .bilde {
   height: 2%;
 }
+
+/* CSS'EN TIL BILDET I OVERSKRIFTEN */
 
 .tittel-bilde {
   height: 400%;
@@ -49,7 +53,7 @@
   position: aboslute;
 }
 
-/* TITTEL */
+/* CSS'EN TIL TITTELEN I BILDET */
 
 .konsepttittel {
   color: white;
@@ -57,7 +61,7 @@
   padding-top: 2.5%;
 }
 
-/* TITTLER */
+/* CSS'EN TIL UNDERTITTLENE */
 
 .konseptutvikling-tittel,
 .mediefag-tittel,
@@ -66,12 +70,14 @@
   margin-top: 10%;
 }
 
-/* PROSJEKTER TIL KONSEPTUTVIKLING */
+/* CSS'EN TIL FLEX BOKSENE TIL RADENE */
 
 .rad1,
 .rad2 {
   display: flex;
 }
+
+/* CSS'EN TIL PROSJEKTENE TIL VENSTRE */
 
 .prosjekt1-container {
   box-sizing: border-box;
@@ -82,7 +88,10 @@
   margin-top: 2.5%;
   margin-left: 15%;
   background-color: rgb(146, 159, 212);
+  width: 30%;
 }
+
+/* CSS'EN TIL PROSJEKTENE TIL HØYRE */
 
 .prosjekt2-container {
   box-sizing: border-box;
@@ -93,12 +102,10 @@
   margin-top: 2.5%;
   margin-left: 10%;
   background-color: rgb(146, 159, 212);
-}
-
-.prosjekt1-container,
-.prosjekt2-container {
   width: 30%;
 }
+
+/* CSS'EN TIL PUSTEROMMET TIL BOKSEN SLIK AT TEKSTEN IKKE ER HELT OPPE I KANTENE */
 
 .prosjekt1-contents,
 .prosjekt2-contents {
@@ -113,20 +120,25 @@
   margin-bottom: 1%;
 }
 
+/* CSS'EN TIL TELEFON SUPPORT */
+
 @media only screen and (max-width: 767px) {
+  
+  /* CSS'EN TIL ENDRING AV STØRRELSEN PÅ TITTELEN I OVERSKRIFTEN */
+
   .konsepttittel {
     padding-top: 7.5%;
   }
+
+  /* CSS'EN TIL MELLOMROMMET MELLOM TITTELEN OG UNDEROVERSKRIFTEN TIL KONSEPTUTVIKLING OG PROGRAMMERING*/
 
   .konseptutvikling-tittel {
     margin-top: 40%;
   }
 
-  .prosjekt1-container {
-    margin-left: 5%;
-    width: 42.5%;
-  }
+  /* CSS'EN TIL ENDRING AV STØRRELSEN PÅ BOKSEN FOR Å FÅ PLASS PÅ SIDEN PÅ TELEFONEN */
 
+  .prosjekt1-container,
   .prosjekt2-container {
     margin-left: 5%;
     width: 42.5%;

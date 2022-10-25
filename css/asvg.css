@@ -1,56 +1,11 @@
+/* CSS'EN TIL ENDRING AV FONTEN OG TEKSTSTØRRELSEN */
+
 .asvg-overskrift,
 .om-asvg,
 .hvem-tittel,
 .hvem-tekst,
 .hvem-knapp {
   font-family: Alumni Sans;
-}
-
-.asvg {
-  background-color: transparent;
-  border-color: transparent;
-  transition: opacity 0.5s ease;
-  transition: background-color 0.5s ease;
-  border-color: blue;
-}
-
-.asvg:active {
-  opacity: 0.75;
-}
-
-.bakgrunnsfarge {
-  height: 82.6%;
-  width: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(../bilder/asvg-bakgrunn.png);
-  background-position: center;
-  background-size: cover;
-  position: absolute;
-} 
-
-/* ASVG */
-
-.asvg-overskrift {
-  color: white;
-  font-weight: bold;
-  text-align: center;
-  margin-top: 1%;
-  font-size: 2rem;
-}
-
-.om-asvg {
-  color: white;
-  line-height: 130%;
-  text-align: center;
-  margin-left: 25%;
-  margin-right: 25%;
-  font-size: 1.2rem;
-}
-
-.hvem-boks {
-  background: white;
-  text-align: center;
-  margin: 0% 39%;
-  margin-top: 5%;
 }
 
 .hvem-tittel {
@@ -62,6 +17,49 @@
   font-size: 1.2rem;
 }
 
+/* CSS'EN TIL BAKGRUNNSBILDET */
+
+.bakgrunnsfarge {
+  height: 82.6%;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(../bilder/asvg-bakgrunn.png);
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+} 
+
+/* CSS'EN TIL OVERSKRIFTEN */
+
+.asvg-overskrift {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 1%;
+  font-size: 2rem;
+}
+
+/* CSS'EN TIL TEKSTEN */
+
+.om-asvg {
+  color: white;
+  line-height: 130%;
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  font-size: 1.2rem;
+}
+
+/* CSS'EN TIL FLEX BOKSEN */
+
+.hvem-boks {
+  background: white;
+  text-align: center;
+  margin: 0% 39%;
+  margin-top: 5%;
+}
+
+/* CSS'EN TIL KNAPPEN */
+
 .hvem-knapp {
   background-color: rgb(101, 208, 193);
   margin-top: 2rem;
@@ -72,11 +70,11 @@
   padding: 0 10%;
 }
 
-.fet {
-  font-weight: bold;
-}
+/* PHONE SUPPORT */
 
 @media only screen and (max-width: 767px) {
+
+  /* CSS'EN TIL OVERSKRIFTEN */
 
   .asvg-overskrift {
     margin-left: 25%;
@@ -84,19 +82,14 @@
     margin-bottom: 2%;
   }
 
+  /* CSS'EN TIL TEKSTEN */
+
   .om-asvg {
     width: 50%;
     margin-left: 25%;
   }
 
-  .om-as {
-    width: 50%;
-    margin-left: 5%;
-  }
-
-  .mer-om-asvg-overskrift {
-    margin-left: 20%;
-  }
+  /* CSS'EN TIL BALGRUNNSBILDET */
 
   .bakgrunnsfarge {
     background-color: black;
@@ -107,6 +100,8 @@
     background-size: cover;
     position: absolute;
   }
+
+  /* CSS'EN TIL FLEX BOKSEN */
 
   .hvem-boks {
     width: 50%;

@@ -1,3 +1,5 @@
+/* CSS'EN TIL ENDRING AV FONT OG SKRIFT STØRRELSE PÅ ALL TEKST */
+
 .i-boks-tekst-overskrift,
 .m-boks-tekst-overskrift,
 .i-boks-tekst-tekst,
@@ -31,13 +33,7 @@
   font-size: 1.5rem;
 }
 
-.im {
-  background-color: transparent;
-  border-color: transparent;
-  transition: opacity 0.5s ease;
-  transition: background-color 0.5s ease;
-  border-color: blue;
-}
+/* CSS'EN TIL BILDET I OVERSKRIFTEN */
 
 .bilde {
   height: 20%;
@@ -48,15 +44,21 @@
   position: absolute;
 }
 
+/* CSS'EN TIL OVERSKRIFTEN I BILDET */
+
 .om-im {
   color: white;
   text-align: center;
   padding-top: 2.5%;
 }
 
+/* CSS'EN TIL FLEX BOKSEN TIL HOVEDBOKSENE SOM FORKLARER OM IM */
+
 .im-boks {
   display: flex;
 }
+
+/* CSS'EN TIL ENDRING AV TEKSTFARGE, TJUKKHET, TOPPMARGINEN, TILPASSNINGEN AV TEKSTEN */
 
 .i-boks-tekst-overskrift,
 .m-boks-tekst-overskrift {
@@ -67,6 +69,8 @@
   display: block;
 }
 
+/* CSS'EN TIL INFORMASJONSTEKNOLOGI TEKSTBOKSEN */
+
 .i-boks {
   margin-top: 15%;
   background-color: rgb(146, 159, 212);
@@ -75,12 +79,16 @@
   
 }
 
+/* CSS'EN TIL MEDIEPRODUKSJON TEKSTBOKSEN */
+
 .m-boks {
   background-color: rgb(146, 159, 212);
   margin-top: 15%;
   width: 36%;
   margin-left: 5%;
 }
+
+/* CSS'EN TIL LINJEAVSTAND OG PUSTEROMMET TIL IM BOKSENE */
 
 .i-boks-tekst-tekst,
 .m-boks-tekst-tekst {
@@ -89,7 +97,9 @@
   margin-left: 1%;
 }
 
-/* MINE PROSJEKTER */
+/* CSS'EN TIL MINE PROSJEKTER */
+
+/* CSS'EN TIL TEKSTEN UNDER "Oversikt over Prosjekter" */
 
 .prosjekter {
   margin-top: 2.5%;
@@ -97,6 +107,8 @@
   text-align: center;
   margin-bottom: 1%;
 }
+
+/* CSS'EN TIL OVERSKRIFTEN "Oversikt over Prosjekter" */
 
 .prosjekter-tekst {
   color: black;
@@ -106,12 +118,7 @@
   margin: 0% 25%;
 }
 
-.prosjekter-bilde {
-  width: 20%;
-  height: 20%;
-  margin-right: 30%;
-  margin-left: 10%;
-}
+/* CSS'EN TIL KNAPPEN */
 
 .knapp-div {
   display: flex;
@@ -126,24 +133,24 @@
   height: 20%;
 }
 
-.mellomrom {
-  display: block;
-  margin-top: 5%;
-}
-
 /* PHONE SUPPORT */
 
 @media only screen and (max-width: 767px) {
-  /* IMAGE + BOKSER */
+
+  /* CSS'EN TIL INFORMASJONSTEKNOLOGI TEKSTBOKSEN */
 
   .i-boks {
     width: 48%;
     margin-left: 1%;
   }
 
+  /* CSS'EN TIL ENDRING AV FONTSTØRRELSEN PÅ INFORMASJONSTEKNOLOGI OVERSKRIFTEN TIL Å PASSE BOKSEN */
+
   .i-boks-tekst-overskrift {
     font-size: 1.75rem;
   }
+
+  /* CSS'EN TIL MEDIEPRODUKSJON TEKSTBOKSEN */
   
   .m-boks {
     width: 49%;
@@ -151,14 +158,20 @@
     margin-right: 1%;
   }
 
+  /* CSS'EN TIL ENDRING AV HØYDE TIL BILDET I OVERSKRIFTEN */
+
   .background-image {
     height: 100%;
   }
+
+  /* CSS'EN TIL ENDRING AV HØYDE PÅ DEN HVITE BAKGRUNNEN */
 
   .white-box {
     top: 120%;
     height: 90%;
   }
+
+  /* CSS' EN TIL ENDRING AV MELLOMROMMET MELLOM TEKSTEN OG KNAPPEN */
 
   .knapp-div {
     margin-top: 80%;
