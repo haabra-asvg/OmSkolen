@@ -22,14 +22,10 @@
   font-size: 3rem;
 }
 
-.i-boks-tekst-tekst,
-.m-boks-tekst-tekst,
-.prosjekter-tekst {
-  font-size: 1.2rem;
-}
-
 .prosjekter-tekst,
-.prosjekter-knapp {
+.prosjekter-knapp,
+.i-boks-tekst-tekst,
+.m-boks-tekst-tekst {
   font-size: 1.5rem;
 }
 
