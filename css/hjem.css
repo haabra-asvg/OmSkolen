@@ -80,14 +80,12 @@
   /* CSS'EN TIL OVERSKRIFTEN */
 
   .velkommen {
-    margin-left: 25%;
     line-height: 120%;
   }
 
   /* CSS'EN TIL TEKSTEN */
 
   .velkommen-tekst {
-    margin-left: 25%;
     line-height: 120%;
     height: 17%;
   }
@@ -95,13 +93,12 @@
   /* CSS'EN TIL BAKGRUNNSBILDET */
 
   .background-image {
-    height: 60%;
+    height: 79%;
   }
 
   /* CSS'EN TIL KNAPPEN */
 
   .div-im-knapp {
-    margin-left: 25%;
-    margin-top: 20%;
+    margin-top: 2.5%;
   }
 }

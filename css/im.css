@@ -163,13 +163,12 @@
   /* CSS'EN TIL ENDRING AV HØYDE PÅ DEN HVITE BAKGRUNNEN */
 
   .white-box {
-    top: 120%;
-    height: 90%;
+    height: 80%;
   }
 
-  /* CSS' EN TIL ENDRING AV MELLOMROMMET MELLOM TEKSTEN OG KNAPPEN */
+  /* CSS'EN TIL MELLOMROMMET MELLOM BUNNEN AV NETTSIDEN OG KNAPPEN */
 
-  .knapp-div {
-    margin-top: 80%;
+  .prosjekter-knapp {
+    margin-bottom: 2%;
   }
 }
