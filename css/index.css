@@ -54,20 +54,14 @@ button a {
     border-color: blue;
 }
 
-/* CSS'EN TIL MELLOMROMMET MELLOM AMALIE SKRAM SKJOLDET OG HJEM KNAPPEN */
-
-.hjem {
-    margin-left: 550px;
-}
-
 /* CSS'EN TIL POSISJONEN OG STØRRELSEN PÅ BILDET AV MEG */
 
 .logo {
     width: 150px;
     height: 150px;
-    position: absolute;
-    top: -5%;
-    left: 88.5%;
+    float: right;
+    margin-right: 2%;
+    margin-top: 0.1%;
 }
 
 /* CSS'EN TIL ALLE ORD MED "span fet" */
@@ -115,17 +109,30 @@ button a {
     /* CSS'EN TIL STØRRELSEN OG POSISJONEN AV BILDET PÅ TELEFON */
 
     .logo {
-        float: left;
-        position: absolute;
+        float: right;
         width: 75px;
         height: 75px;
-        top: 9%;
-        left: 75%;
+        margin-top: 4%;
+        margin-right: 5%;
     }
 
     /* CSS'EN TIL ENDRING AV HØYDEN PÅ NAVIGASJONS BAREN */
 
     .navbar {
         height: 150px;
+    }
+}
+
+/* CSS'EN TIL STØRRELSEN AV NAVBAREN NÅR SKJERMEN MINKER */
+
+@media only screen and (max-width: 1700px) {
+    .hjem {
+        margin-left: 20%;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+    .hjem {
+        margin-left: -5%;
     }
 }
